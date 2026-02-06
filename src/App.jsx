@@ -1,14 +1,17 @@
-import './App.css'
+
+import './App.css';
+import Card from './Components/Card';
 
 function App() {
-
   return (
     <>
       <div className="parent">
-          <h1>Hello </h1>
+        <Card />
+        <Card />
+        <Card />
       </div>
     </>
-  )
+  );  // Added missing ) here
 }
 
-export default App
+export default App;
